@@ -1,0 +1,15 @@
+
+<h1>Yash Blogs</h1>
+
+<% blogs.forEach(element => { %>
+ <ul class="list-unstyled">
+    <li>
+      <a href="/data/<%=element.slug %>"><%= element.title  %></a>
+      <a href="/delete/<%=element.slug %>"><button>DELETE</button></a>
+      <a href="/edit/<%=element.slug %>"><button>EDIT</button></a>
+   </li>
+ </ul>
+
+ <% }) %>
+ <a href="/add-blog"><button>ADD A Blog</button></a>
+

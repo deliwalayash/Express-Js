@@ -1,0 +1,12 @@
+<h1>Hello this is Yash`s Blogs</h1>
+
+<ul>
+    <% blogs.forEach(element => { %>
+     <li><a href="/blog/<%= element.slug %>"><%=element.title%></a>
+    <a href="/delete/<%= element.slug %>"><button>DELETE</button></a>
+    </li>
+  
+    <% }) %>
+</ul>
+
+<a href="./add-blog"><button>ADD A Blog</button></a>

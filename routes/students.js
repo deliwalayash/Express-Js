@@ -1,0 +1,10 @@
+students=[{
+    name:"yash",
+    id:2,
+    course:"fsd"
+},
+{
+    name:"vihaan",
+    id:5,
+    course:"ui/ux"
+}]

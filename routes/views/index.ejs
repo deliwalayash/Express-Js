@@ -1,0 +1,11 @@
+<h1>Hello this is my blogs page</h1>
+<h2>Yash's Blogs</h2>
+
+<h3>All Blogs</h3>
+
+<ul>
+    <% blogs.forEach(blog => { %>
+        <li><a href="/blog/<%= blog.slug %>"><%= blog.title %></a></li>
+    <% }) %>
+    
+</ul>
