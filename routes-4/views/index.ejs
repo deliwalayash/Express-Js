@@ -1,0 +1,10 @@
+<link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+<ul class="list-unstyled container ">
+    <% users.forEach(element => { %>
+     <li><%= element.id %></li>
+     <li><%= element.first_name %></li>
+     <li><%= element.last_name %></li>
+     <li><%= element.email %></li>
+    <% }) %>
+</ul>

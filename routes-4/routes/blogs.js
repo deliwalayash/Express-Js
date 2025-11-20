@@ -1,0 +1,103 @@
+const users=[{
+  "id": 1,
+  "first_name": "Charlotte",
+  "last_name": "Hollier",
+  "email": "chollier0@technorati.com"
+}, {
+  "id": 2,
+  "first_name": "Antonina",
+  "last_name": "Windley",
+  "email": "awindley1@taobao.com"
+}, {
+  "id": 3,
+  "first_name": "Anet",
+  "last_name": "Lamplough",
+  "email": "alamplough2@hibu.com"
+}, {
+  "id": 4,
+  "first_name": "Laraine",
+  "last_name": "Henderson",
+  "email": "lhenderson3@noaa.gov"
+}, {
+  "id": 5,
+  "first_name": "Celle",
+  "last_name": "Etherson",
+  "email": "cetherson4@cnbc.com"
+}, {
+  "id": 6,
+  "first_name": "Tulley",
+  "last_name": "Jowle",
+  "email": "tjowle5@canalblog.com"
+}, {
+  "id": 7,
+  "first_name": "Esther",
+  "last_name": "Dougherty",
+  "email": "edougherty6@upenn.edu"
+}, {
+  "id": 8,
+  "first_name": "Marena",
+  "last_name": "Clemenzi",
+  "email": "mclemenzi7@yellowbook.com"
+}, {
+  "id": 9,
+  "first_name": "Town",
+  "last_name": "Gostling",
+  "email": "tgostling8@cisco.com"
+}, {
+  "id": 10,
+  "first_name": "Isadore",
+  "last_name": "Kline",
+  "email": "ikline9@unicef.org"
+}, {
+  "id": 11,
+  "first_name": "Oralie",
+  "last_name": "Summerley",
+  "email": "osummerleya@ustream.tv"
+}, {
+  "id": 12,
+  "first_name": "Raine",
+  "last_name": "Cowdray",
+  "email": "rcowdrayb@amazon.co.jp"
+}, {
+  "id": 13,
+  "first_name": "Renaldo",
+  "last_name": "Schukert",
+  "email": "rschukertc@wisc.edu"
+}, {
+  "id": 14,
+  "first_name": "Toby",
+  "last_name": "Trase",
+  "email": "ttrased@bloglovin.com"
+}, {
+  "id": 15,
+  "first_name": "Brittany",
+  "last_name": "Tomashov",
+  "email": "btomashove@shop-pro.jp"
+}, {
+  "id": 16,
+  "first_name": "Tito",
+  "last_name": "Henningham",
+  "email": "thenninghamf@deviantart.com"
+}, {
+  "id": 17,
+  "first_name": "Mateo",
+  "last_name": "Chaplin",
+  "email": "mchapling@histats.com"
+}, {
+  "id": 18,
+  "first_name": "Eugenia",
+  "last_name": "Connick",
+  "email": "econnickh@zimbio.com"
+}, {
+  "id": 19,
+  "first_name": "Simmonds",
+  "last_name": "Ellcome",
+  "email": "sellcomei@alexa.com"
+}, {
+  "id": 20,
+  "first_name": "Jacquelin",
+  "last_name": "Wain",
+  "email": "jwainj@prweb.com"
+}]
+
+module.exports=users
