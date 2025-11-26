@@ -1,0 +1,25 @@
+<%- include("partials/header") %>
+
+<form action="/login" method="POST" novalidate>
+
+    <label>UserName:</label>
+    <input type="text" name="username" placeholder="Enter username" value="<%= username || '' %>">
+    <br>
+
+    <label>Email:</label>
+    <input type="email" name="email" placeholder="Enter email" value="<%= email || '' %>">
+    <br>
+
+    <label>Password:</label>
+    <input type="password" name="password" placeholder="Enter password">
+    <br>
+
+    <button type="submit">Submit</button>
+
+    <% if (error) { %>
+        <p style="color:red"><%= error %></p>
+    <% } %>
+
+</form>
+
+<%- include("partials/footer") %>

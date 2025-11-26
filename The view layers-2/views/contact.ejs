@@ -1,0 +1,24 @@
+<%- include("partials/header", { title: "Contact" }) %>
+
+<div class="contact-wrapper">
+    <h2>Contact Us</h2>
+
+    <form action="/contact" method="post" class="contact-form" novalidate>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <br>
+
+        <label for="mobile">Number:</label>
+        <input type="number" name="mobile" id="mobile">
+        <br>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+<p style="color: red;"><%= error %></p>
+
+<%- include("partials/footer") %>

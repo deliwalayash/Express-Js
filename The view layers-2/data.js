@@ -1,0 +1,22 @@
+const users=[{"id":1,"first_name":"Jessa","email":"jstepney0@tripod.com"},
+{"id":2,"first_name":"Lev","email":"lwinch1@163.com"},
+{"id":3,"first_name":"Michale","email":"mannice2@slate.com"},
+{"id":4,"first_name":"Babita","email":"bdimic3@arizona.edu"},
+{"id":5,"first_name":"Johnna","email":"jyelding4@amazon.de"},
+{"id":6,"first_name":"Cody","email":"cquenby5@bigcartel.com"},
+{"id":7,"first_name":"Ethyl","email":"eohannen6@cornell.edu"},
+{"id":8,"first_name":"Delmore","email":"dchesman7@trellian.com"},
+{"id":9,"first_name":"Hardy","email":"hlerwill8@netscape.com"},
+{"id":10,"first_name":"Dniren","email":"dbyres9@nps.gov"},
+{"id":11,"first_name":"Brigitte","email":"bprinta@eventbrite.com"},
+{"id":12,"first_name":"Linnet","email":"lamissb@telegraph.co.uk"},
+{"id":13,"first_name":"Fin","email":"fhillhousec@exblog.jp"},
+{"id":14,"first_name":"Willa","email":"wcrummyd@rediff.com"},
+{"id":15,"first_name":"Dodie","email":"dlorenzinie@va.gov"},
+{"id":16,"first_name":"Dexter","email":"dmacgraghf@scribd.com"},
+{"id":17,"first_name":"Wilt","email":"wmcglaughng@archive.org"},
+{"id":18,"first_name":"Mohammed","email":"mmartinollih@clickbank.net"},
+{"id":19,"first_name":"Donnie","email":"dshilitoi@salon.com"},
+{"id":20,"first_name":"Carmelia","email":"cpenmanj@ezinearticles.com"}]
+
+module.exports=users

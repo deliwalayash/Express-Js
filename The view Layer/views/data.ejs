@@ -1,0 +1,24 @@
+
+
+<%- include("partials/header") %>
+
+<div class="flex">
+    <% data.forEach(user => { %>
+   <div class="card">
+      <h3><%= user.first_name %> <%= user.last_name %></h3>
+      <p>Email: <%= user.email %></p>
+      <p>Gender: <%= user.gender %></p>
+    <% if (user.age > 18) { %>
+    <p class="green">User is Above 18</p>
+    <% } else { %>
+    <p class="red">User is Below 18</p>
+    <% } %>
+      <a href='/data/<%= user.id %>'><button>Delete</button></a>
+   </div>
+   
+<% }) %>
+</div>
+
+<%- include("partials/footer") %>
+
+

@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 app.get('/err',(req,res,next)=>{
     next(new Error("Something Broke!!!"))
 })
-
+0
 app.use((err,req,res,next)=>{
     console.log("Error Middlewear Called")
     res.status(500).send(err.message)

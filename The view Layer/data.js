@@ -1,0 +1,22 @@
+const users = [{"id":1,"first_name":"Gregorius","last_name":"Crouch","email":"gcrouch0@g.co","gender":"Male","ip_address":"106.153.98.248","age":19},
+{"id":2,"first_name":"Hashim","last_name":"Gillingwater","email":"hgillingwater1@cisco.com","gender":"Male","ip_address":"114.176.178.110","age":31},
+{"id":3,"first_name":"Allie","last_name":"Paolino","email":"apaolino2@csmonitor.com","gender":"Female","ip_address":"101.195.18.74","age":46},
+{"id":4,"first_name":"Fayth","last_name":"Hounson","email":"fhounson3@google.co.uk","gender":"Female","ip_address":"88.107.245.32","age":18},
+{"id":5,"first_name":"Sanford","last_name":"Grumell","email":"sgrumell4@t-online.de","gender":"Male","ip_address":"23.121.138.112","age":24},
+{"id":6,"first_name":"Rodrick","last_name":"O'Kane","email":"rokane5@bandcamp.com","gender":"Male","ip_address":"88.25.144.236","age":24},
+{"id":7,"first_name":"Timmie","last_name":"Bullcock","email":"tbullcock6@thetimes.co.uk","gender":"Male","ip_address":"159.178.94.137","age":19},
+{"id":8,"first_name":"Ruperta","last_name":"Abramowitch","email":"rabramowitch7@wufoo.com","gender":"Female","ip_address":"163.179.140.58","age":22},
+{"id":9,"first_name":"Lula","last_name":"Boome","email":"lboome8@nba.com","gender":"Female","ip_address":"59.220.147.109","age":26},
+{"id":10,"first_name":"Stearne","last_name":"Kunzel","email":"skunzel9@java.com","gender":"Male","ip_address":"4.192.183.114","age":48},
+{"id":11,"first_name":"Oralie","last_name":"Gower","email":"ogowera@google.it","gender":"Female","ip_address":"80.13.52.248","age":48},
+{"id":12,"first_name":"Harmonie","last_name":"Hordell","email":"hhordellb@ted.com","gender":"Bigender","ip_address":"21.148.152.184","age":21},
+{"id":13,"first_name":"Sunny","last_name":"Kopf","email":"skopfc@dmoz.org","gender":"Female","ip_address":"93.167.33.171","age":38},
+{"id":14,"first_name":"Osmund","last_name":"Maffioni","email":"omaffionid@google.cn","gender":"Male","ip_address":"63.206.252.143","age":32},
+{"id":15,"first_name":"Alejandra","last_name":"Canby","email":"acanbye@oaic.gov.au","gender":"Agender","ip_address":"233.217.147.64","age":23},
+{"id":16,"first_name":"Myrah","last_name":"Jiles","email":"mjilesf@vistaprint.com","gender":"Female","ip_address":"116.26.144.176","age":18},
+{"id":17,"first_name":"Dar","last_name":"Leaming","email":"dleamingg@google.com.hk","gender":"Male","ip_address":"84.205.29.194","age":46},
+{"id":18,"first_name":"Jarid","last_name":"Smalecombe","email":"jsmalecombeh@hibu.com","gender":"Male","ip_address":"108.193.128.156","age":25},
+{"id":19,"first_name":"Dill","last_name":"Dosdale","email":"ddosdalei@google.co.jp","gender":"Male","ip_address":"221.158.157.58","age":44},
+{"id":20,"first_name":"Dyan","last_name":"Stickney","email":"dstickneyj@live.com","gender":"Female","ip_address":"185.151.104.93","age":40}]
+
+module.exports=users

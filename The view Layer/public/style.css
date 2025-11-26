@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    color: white;
+}
+.card {
+   border: 1px solid #ccc;
+   margin: 20px;
+   padding: 20px;
+   width: 200px;
+   border-radius: 10px;
+   background: white;
+   color: black;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.red{
+    color: red;
+    font-weight: 600;
+}
+.green{
+    color: green;
+    font-weight: 600;
+}
