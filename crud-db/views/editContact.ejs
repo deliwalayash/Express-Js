@@ -1,0 +1,13 @@
+
+
+<h2>Edit Contact</h2>
+
+<form action="/contact/edit/<%= contact._id %>" method="POST">
+    <input type="text" name="name" value="<%= contact.name %>"><br>
+    <input type="email" name="email" value="<%= contact.email %>"><br>
+    <input type="number" name="mobile" value="<%= contact.mobile %>"><br>
+
+    <button type="submit">Update</button>
+</form>
+
+

@@ -1,0 +1,14 @@
+<h2>All Contacts</h2>
+
+<a href="/contact/add">Add New Contact</a>
+
+<% contacts.forEach(c => { %>
+    <div class="card">
+        <h3><%= c.name %></h3>
+        <p><%= c.email %></p>
+        <p><%= c.mobile %></p>
+
+        <a href="/contact/edit/<%= c._id %>">Edit</a>
+        <a href="/contact/delete/<%= c._id %>" style="color:red;">Delete</a>
+    </div>
+<% }) %>
