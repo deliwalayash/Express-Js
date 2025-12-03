@@ -1,0 +1,12 @@
+<a href="/add"><button>ADD A NEW Contact</button></a>
+
+<% contact.forEach(element => { %>
+    <h1><%= element.name %></h1>
+    <h1><%= element.email %></h1>
+    <h1><%= element.mobile %></h1>
+    <a href="/delete/<%= element._id %>"><button>Delete</button></a>
+    <a href="/edit/<%= element._id %>"><button>Edit</button></a>
+   
+<% }) %>
+
+
