@@ -1,7 +1,6 @@
 const express=require('express')
 const app=express()
-const PORT=4000
-
+// PORT=4000
 
 require("dotenv").config()
 const DBConnect=require('./config/db')
@@ -11,6 +10,6 @@ const authRoute=require('./routes/authRoutes')
 app.use('/api/auth',authRoute)
 
 
-app.listen(PORT,()=>{
-    console.log(`Port is listening to ${PORT}`)
+app.listen(process.env.PORT,()=>{
+    console.log(`Port is listening to 4000`)
 })

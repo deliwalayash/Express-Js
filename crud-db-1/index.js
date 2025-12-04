@@ -12,5 +12,5 @@ app.use(routes)
 
 
 app.listen(PORT,()=>{
-    console.log(`Port is listening to ${PORT}`)
+    console.log(`Port is listening to http://localhost:${PORT}`)
 })
